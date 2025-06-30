@@ -4,7 +4,7 @@
 
 ## 🚀 Features
 
-- 📈 **Real-Time Data** from the [CoinGecko API](https://www.coingecko.com/en/api)
+- 📈 **Real-Time Data** from the **CoinGecko API**
 - 📊 **Historical Graphs & Visualizations** for trend analysis
 - 🧭 **Interactive Coin Comparison** interface
 - 💬 **Chatbot Assistant** for support and insights
@@ -90,14 +90,14 @@ This project is licensed under the MIT License – see the [LICENSE](LICENSE) fi
 ## 👤 Author
 
 **Syed Abdur Rahman**  
-[LinkedIn](https://www.linkedin.com/) | [Email](mailto:syed180303@gmail.com)
+ [Email](mailto:syed180303@gmail.com)
 
 ---
 
-## 👤 Author
+## 👤 Colaborator
 
 **Salman Mohammed Arif**  
-[LinkedIn](https://www.linkedin.com/) | [Email](mailto:syed@example.com)
+ [Email](mailto:syed@example.com)
 
 ---
 
@@ -107,4 +107,4 @@ This project is licensed under the MIT License – see the [LICENSE](LICENSE) fi
 - [CoinGecko API](https://www.coingecko.com/en/api)
 - [Framer Motion](https://www.framer.com/motion/)
 - [Clerk Authentication](https://clerk.dev/)
-- [Chart.js](https://www.chartjs.org/) *(or other charting lib you used)*
+- [Chart.js](https://www.chartjs.org/) 
