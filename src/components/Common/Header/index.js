@@ -25,7 +25,7 @@ function Header() {
       setLight();
     }
     setDarkMode(!darkMode);
-    toast.success("Theme Changed!");
+    // toast.success("Theme Changed!");
   };
 
   const setDark = () => {
@@ -40,11 +40,31 @@ function Header() {
 
   return (
     <div className="header">
+      <div className="logo-text">
+      <img src="logo.png" alt="Company Logo" class="logo"></img>
       <h1>
-        CryptoTracker<span style={{ color: "var(--blue)" }}>.</span>
+        DeepCrypt<span style={{ color: "#F58644" }}>.</span>
       </h1>
+      </div>
       <div className="links">
-        <Switch checked={darkMode} onClick={() => changeMode()} />
+        <Switch 
+          checked={darkMode} 
+          onClick={() => changeMode()} 
+          sx={{
+            '& .MuiSwitch-switchBase.Mui-checked': {
+              color: '#F58644',
+              '&:hover': {
+                backgroundColor: 'rgba(245, 134, 68, 0.08)',
+              },
+            },
+            '& .MuiSwitch-switchBase.Mui-checked + .MuiSwitch-track': {
+              backgroundColor: '#F58644',
+            },
+            '& .MuiSwitch-track': {
+              backgroundColor: '#F58644', // unchecked track color
+            },
+          }}
+        />
         <a href="/">
           <p className="link">Home</p>
         </a>

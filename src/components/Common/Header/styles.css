@@ -1,3 +1,13 @@
+.logo {
+  height: 40px; /* Adjust size as needed */
+  width: auto;
+}
+
+.logo-text {
+    display: flex;
+    align-items: center;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -11,7 +21,7 @@
 
 .header h1 {
   font-size: 1.2rem;
-  margin: 0rem;
+  margin: 0.25rem;
   font-weight: 600;
 }
 
