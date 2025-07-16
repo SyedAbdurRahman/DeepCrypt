@@ -4,6 +4,7 @@ import TemporaryDrawer from "./drawer";
 import "./styles.css";
 import Switch from "@mui/material/Switch";
 import { toast } from "react-toastify";
+import logo from "../../../assets/logo.png";
 
 function Header() {
   const [darkMode, setDarkMode] = useState(
@@ -41,7 +42,7 @@ function Header() {
   return (
     <div className="header">
       <div className="logo-text">
-      <img src="logo.png" alt="Company Logo" class="logo"></img>
+      <img src={logo} alt="Company Logo" class="logo"></img>
       <h1>
         DeepCrypt<span style={{ color: "#F58644" }}>.</span>
       </h1>
